@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing : border-box;
+    font-family: 'Poppins', Lexend Deca;
+}
+#main{
+    height : 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.box{
+    height : 600px;
+    width  : 600px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+h3{
+    text-align: center;
+}
+
+.space{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input{
+    height: 30px;
+    width : 250px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 0.3px solid rgba(0, 0, 0, 0.2);
+    padding: 5px 10px 5px;
+}
+
+.three{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 34px;
+}
+
+.property{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+select{
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    border-color: rgba(161, 155, 155, 0.205);
+    background-color: white;
+}
+
+.four{
+    padding-left: 10px;
+}
+
+#dob{
+    padding-bottom: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 30px;
+    width: 530px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.fourFour{
+    padding-bottom: 8px;
+}
+
+@media screen and (max-width:780px){
+    .one{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .two{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .three{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 0px;
+    }
+    .four{
+        display: flex;
+        flex-direction: column;
+        align-items: space-evenly;
+    }
+    #main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    button{
+        height: 30px;
+        width: 230px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+    }
+}
